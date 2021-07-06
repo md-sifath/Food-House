@@ -2,7 +2,30 @@ body{
     padding: 0;
     margin:0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
+navbar{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    word-spacing: 50px;
+    padding-top: 15px;
+}
+navbar a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2),
+                -2px -2px 2px rgba(255,255,255,0.2),
+                inset 2px 2px 3px rgba(0,0,0,0.2),
+                inset -2px -2px 3px rgba(255,255,255,0.2);  
+    border-radius: 6px;  
+}
+
 
 /*******Home page style strat*************/
 
@@ -133,5 +156,21 @@ span{
 
 /***** Recipie page style End *******/
 
+.fotter{
+    margin-top: 60px;
+    text-align: center;
+    height: 200px;
+    padding-top: 10px;
+    background-color: black;
+
+}
+.fotter h1{
+    color:dimgray;
+}
+.fotter p{
+    color: white;
+}
+
+/********** End ****************/
 
 
