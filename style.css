@@ -91,3 +91,27 @@ span{
 
 /**** about page style end ****/
 
+/***** Recipie page style start *******/
+
+#head{
+    text-align: center;
+    font-size: 40px;
+    color: dimgray;
+}
+.recipie_page p{
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+}
+.recipie_flex{
+    display: flex;
+    margin-top: 5%;
+}
+.recipie_card{
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.recipie_card img{
+    width:80%;
+}
