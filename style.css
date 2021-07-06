@@ -32,7 +32,7 @@ span{
     color: dimgray;
     font-size: 18px;
 }
-#text_part a{
+.button {
     display: block;
     background-image: linear-gradient(to right,#fa772bf5,#e4490c);
     padding: 12px 25px 12px 25px;
@@ -52,3 +52,42 @@ span{
 /********Home page style End*******/
 
 /********About page Style start***********/
+
+.about_page{
+    background-image: url(images/background/bg1.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 636px;
+}
+.home_flex{
+    width: 50%;
+}
+#image_part1{
+    width: 70%;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+#image_part1 img{
+   margin-bottom: 20px;
+}
+#text_part1 h1{
+    color:dimgray;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+#text_part1 p{
+    color: dimgray;
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 150px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+#but-1{
+    margin-left: 200px;
+}
+
+/**** about page style end ****/
+
